@@ -28,5 +28,3 @@ const http = "server"
 
 
 console.log(http)
-
-module.exports.add = (a, b) => a + b
