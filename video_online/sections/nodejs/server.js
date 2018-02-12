@@ -6,6 +6,6 @@ fs.readFile('index.html', function(error, html) {
         response.writeHeader(200, { 'Content-type': 'text/html' })
         response.write(html)
         response.end()
-    }).listen(3000, "localhost")
+    }).listen(3000, '192.168.1.104')
 
 })
